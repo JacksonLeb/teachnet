@@ -1,10 +1,11 @@
 import logo from './logo.svg';
+import ImageCap from './components/ImageCap'
 import './App.css';
 
 function App() {
   return (
     <div>
-      <h1>My App</h1>
+      <ImageCap />
     </div>
   );
 }
