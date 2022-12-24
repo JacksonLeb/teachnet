@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import ImageCap from './components/ImageCap'
+import ClassLabelSubmit from './components/ClassLabelSubmit';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ImageCap />
+      <ClassLabelSubmit />
     </div>
   );
 }

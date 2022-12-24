@@ -7,7 +7,7 @@ const videoContraints = {
     facingMode: "user",
 }
 
-function ImageCap() {
+function ImageCap(props) {
     const [images, setImages] = useState([])
     const [mouseDown, setMouseDown] = useState(false)
     const [numImages, setNumImages] = useState(-1)
@@ -38,6 +38,7 @@ function ImageCap() {
 
   return (
     <div class='h-screen'>
+        <h1 class="text-xl font-extrabold mx-36">{props.classLabel}</h1>
         <div class='grid grid-cols-2 h-1/4 w-3/4'>
             <div className='webcam'>
                 <Webcam
